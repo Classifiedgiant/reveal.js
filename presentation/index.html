@@ -16,8 +16,29 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>CORS & Docker</section>
+				<section>
+					<section>
+						<h2>What is CORS?</h2>
+						<p class="fragment">Cross-Origin Resource Sharing</p>
+					</section>
+					<section>
+						<h2>CORS</h2>
+						<ul>
+							<li class>The ability for web clients to make requests to servers other than itself</li>
+							<li class="fragment">Safety net to stop websites calling any server</li>
+							<li class="fragment">By default, websites can only access items with the same domain</li>
+							<li class="fragment">
+								<p>How do I call others??</p>
+								<img src="https://i.giphy.com/l2JdSaSPku9YSdPXO.gif" width="240" height="135" frameBorder="0"/>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Links</h2>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">Web Docs CORS</a>
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -31,6 +52,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				slideNumber: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
