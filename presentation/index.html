@@ -26,7 +26,7 @@
 					<section>
 						<h2>CORS</h2>
 						<ul>
-							<li>The ability for web clients to make requests to servers other than itself</li>
+							<li>The ability for web clients to make requests to servers other than themselves</li>
 							<li class="fragment">Safety net to stop websites calling any server</li>
 							<li class="fragment">By default, websites can only access items with the same domain</li>
 							<li class="fragment">
@@ -77,7 +77,7 @@
 							<li class="fragment">
 								<pre>
 									<code data-trim data-noescape class="language-plaintext">
-										// Origin needs to specified for this work (no more wildcards)
+										// Origin needs to specified for this to work (no more wildcards)
 										Access-Control-Allow-Origin: https://foo.example
 										Access-Control-Allow-Credentials: true
 									</code>
@@ -94,7 +94,7 @@
 								Access-Control-Allow-Origin: https://localhost:3000
 							</code>
 						</pre>
-						<p>Different port locally require this</p>
+						<p>Different port locally required for this</p>
 					</section>
 					<section>
 						<h2>Links</h2>
@@ -129,7 +129,7 @@
 									"proxy": "http://localhost:5000"
 
 									// backend Access-Control-Allow-Origin response header
-									// this work (has to match the request origin)
+									// this works (has to match the request origin)
 									Access-Control-Allow-Origin: https://localhost:3000
 									</code>
 								</pre>
